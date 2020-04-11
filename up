@@ -86,7 +86,7 @@ xkb_symbols "neo_base" {
     key <AC08> { [ k,                       K,                       Up,                      uparrow,                 KP_5,                    KP_5,                    U211D,                   NoSymbol                 ] };
     key <AC09> { [ l,                       L,                       Right,                   rightarrow,              KP_6,                    KP_6,                    partialderivative,       NoSymbol                 ] };
     key <AC10> { [ semicolon,               colon,                   colon,                   Greek_delta,             KP_Separator,            comma,                   Greek_DELTA,             NoSymbol                 ] };
-    key <AC11> { [ acute,                   diaeresis,               at,                      Greek_upsilon,           period,                  KP_Decimal,              nabla,                   NoSymbol                 ] };
+    key <AC11> { [ apostrophe,              quotedbl,                at,                      Greek_upsilon,           period,                  KP_Decimal,              nabla,                   NoSymbol                 ] };
 
     // Bottom row
     // --------------------------------------------------------------
