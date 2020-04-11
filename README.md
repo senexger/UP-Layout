@@ -11,7 +11,7 @@ Simplifies access to important keys for programming. Here are the brackets at th
 ## Getting Started
 
 setxkbmap up neo
-
+```
  ┌────┐
  │ 2 4│   2 = Shift       4 = Level5 (symbols)
  │ 1 3│   1 = Normal      3 = Level3 (navigation)
@@ -32,3 +32,4 @@ setxkbmap up neo
 ┃       ┃       ┃       ┃ ␣                               ⍽ ┃       ┃       ┃    ┃      ┃
 ┃Ctrl   ┃ super ┃  Alt  ┃ ␣           Space               ⍽ ┃ Mod 4 ┃ Menu  ┃ Fn ┃ Ctrl ┃
 ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━┻━━━━━━┛
+```
