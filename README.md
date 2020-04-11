@@ -2,10 +2,10 @@
 
 I have tried to extend the existing US keyboard layout with some extra layers. Two new layers have been created:
 
-###Level 3 <CAPSLOCK>
+### Level 3 <CAPSLOCK>
 Simplifies navigation. The assignment has been kept very much to the familiar configuration of vim, so that little new learning is required and you do not necessarily have to rely on an editor.
 
-###Level 4 <lsgt?!>
+### Level 4 <lsgt?!>
 Simplifies access to important keys for programming. Here are the brackets at the central positions. This layout is very much oriented towards hipster layouts like Neo.
 
 ## Getting Started
