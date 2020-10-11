@@ -3,7 +3,7 @@
 Extension of the US keyboard layout with some extra layers, like neo. The idea is, that you have the benefits of the layer system from neo without learning a new mapping.
 
 ### Level 3 <CAPS>
-Navigation layer: The assignment has been kept very close to the familiar configuration of vim, so that less new learning is required and you do not necessarily have to rely on an editor.
+Simplifies navigation. The assignment has been kept very much to the familiar configuration of vim, so that little new learning is required and you do not necessarily have to rely on an editor.
 
 ### Level 4 <lsgt?!>
 Simplifies access to important keys for programming. Here are the brackets at the central positions. This layout is very much oriented towards hipster layouts like Neo.
@@ -28,7 +28,7 @@ setxkbmap up neo
 ┣━━━━━━━┳┻━━━━┱┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
 ┃       ┃     ┃ Z   │ X   │ C   │ V   │ B   │ N   │ M   │ <   │ >   │ ? ¿ ┃             ┃
 ┃Shift ⇧┃Mod 4┃ z   │ x   │ c   │ v   │ b   │ n   │ m   │ ,   │ .   │ / ⁄ ┃   Shift ⇧   ┃
-┣━━━━━━┳┻━━━━━┻━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━┳━━━━━━┫
-┃      ┃        ┃       ┃ ␣                               ⍽ ┃       ┃       ┃    ┃      ┃
-┃Ctrl  ┃ super  ┃  Alt  ┃ ␣           Space               ⍽ ┃ Mod 4 ┃ Menu  ┃ Fn ┃ Ctrl ┃
-┗━━━━━━┻━━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━┻━━━━━━┛
+┣━━━━━━━┻━━━━━┻━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━┳━━━━━━┫
+┃       ┃       ┃       ┃ ␣                               ⍽ ┃       ┃       ┃    ┃      ┃
+┃Ctrl   ┃ super ┃  Alt  ┃ ␣           Space               ⍽ ┃ Mod 4 ┃ Menu  ┃ Fn ┃ Ctrl ┃
+┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━┻━━━━━━┛
