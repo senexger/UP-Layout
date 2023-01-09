@@ -128,6 +128,7 @@ xkb_symbols "neo_base" {
     key <AC09> { [ l,                       L,                       minus,                   Greek_tau,               KP_6,                    KP_6,                    partialderivative,       NoSymbol                 ] };
     key <AC10> { [ semicolon,               D,                       colon,                   Greek_delta,             KP_Separator,            comma,                   Greek_DELTA,             NoSymbol                 ] };
     key <AC11> { [ bracketleft,             bracketright,            at,                      Greek_upsilon,           period,                  KP_Decimal,              nabla,                   NoSymbol                 ] };
+    key <BKSL> { [ bracketright,            bar,                     dead_abovering,          dead_dasia,              dead_diaeresis,          NoSymbol,                dead_macron,             NoSymbol                 ] };
 
     // Bottom row
     // --------------------------------------------------------------
@@ -198,7 +199,8 @@ xkb_symbols "neo" {
 
     include "shift(both_capslock)"
     include "level3(caps_switch)"
-    include "level3(bksl_switch)"
+    // bksl key is needed for ']'
+    //include "level3(bksl_switch)"     
     include "level5(lsgt_switch_lock)"
     include "level5(ralt_switch_lock)"
 };
