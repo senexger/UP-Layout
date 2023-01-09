@@ -37,7 +37,6 @@ xkb_symbols "basic" {
     include "level3(ralt_switch)"
 };
 
-
 // German Neo-Layout Version 2
 // adopted 2004 by Hanno Behrens <Hanno.Behrens@gmx.de>
 // inspired by Dvorak/de-ergo  http://www.goebel-consult.de/de-ergo/
@@ -195,7 +194,7 @@ xkb_symbols "neo_base" {
 partial alphanumeric_keys modifier_keys keypad_keys
 xkb_symbols "neo" {
 
-    include "de(neo_base)"
+    include "up(neo_base)"
 
     name[Group1]= "German (Neo 2)";
 
