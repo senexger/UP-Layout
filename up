@@ -50,7 +50,7 @@ xkb_symbols "basic" {
 // https://www.neo-layout.org
 
 partial alphanumeric_keys modifier_keys keypad_keys
-xkb_symbols "neo_base" {
+xkb_symbols "up_base" {
 
     // The different layers and how to reach them
     // --------------------------------------------------------------
@@ -193,7 +193,7 @@ xkb_symbols "neo_base" {
 partial alphanumeric_keys modifier_keys keypad_keys
 xkb_symbols "neo" {
 
-    include "up(neo_base)"
+    include "up(up_base)"
 
     name[Group1]= "German (Neo 2)";
 
