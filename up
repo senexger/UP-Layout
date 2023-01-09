@@ -30,9 +30,9 @@ xkb_symbols "up_base" {
 
     // Captions for the large table below
     // --------------------------------------------------------------
-    // Xorg:       Level1           Level2               Level3             Level4                 Level5             Level6               Level7               Level8
-    // UP!:        Ebene1           Ebene2               Ebene3             Ebene5                 Ebene4             Pseudo-Ebene         Ebene6
-    // Access key: none             Shift                Caps/Bksl          Shift + Caps/Bksl      Lsgt/RAlt          Shift + Lsgt/RAlt    Caps/Bksl + Lsgt/RAlt
+    // Xorg:       Level1           Level2               Level3             Level4                 Level5            Level6               Level7             Level8
+    // UP!:        Ebene1           Ebene2               Ebene3             Ebene5                 Ebene4            Pseudo-Ebene         Ebene6
+    // Access key: none             Shift                Caps/Bksl          Shift + Caps/Bksl      Lsgt/RAlt         Shift + Lsgt/RAlt    Caps/Bksl + Lsgt/RAlt
     // Function:   letter           letter big           symbols            Greek letters          Navigation/Umlaut
 
     // Alphanumeric-keys
@@ -61,23 +61,23 @@ xkb_symbols "up_base" {
 
     // Top row
     // ------------------------------------------------------------
-    key <AD01> { [ q,             Q,                   ellipsis,          NoSymbol,               Prior,             Prior,               Greek_XI,          NoSymbol       ] };
+    key <AD01> { [ q,             Q,                   ellipsis,          NoSymbol,               adiaeresis,        adiaeresis,               Greek_XI,          NoSymbol       ] };
     key <AD02> { [ w,             W,                   underscore,        Greek_finalsmallsigma,  BackSpace,         BackSpace,           radical,           NoSymbol       ] };
     key <AD03> { [ e,             E,                   bracketleft,       Greek_epsilon,          Up,                Up,                  Greek_LAMBDA,      NoSymbol       ] };
     key <AD04> { [ r,             R,                   bracketright,      Greek_rho,              Delete,            Delete,              U2102,             NoSymbol       ] };
     key <AD05> { [ t,             T,                   asciicircum,       Greek_tau,              Next,              Next,                Greek_OMEGA,       NoSymbol       ] };
-    key <AD06> { [ y,             Y,                   exclam,            Greek_upsilon,          exclamdown,        NoSymbol,            multiply,          NoSymbol       ] };
+    key <AD06> { [ y,             Y,                   exclam,            Greek_upsilon,          udiaeresis,        udiaeresis,            multiply,          NoSymbol       ] };
     key <AD07> { [ u,             U,                   less,              Greek_theta,            KP_7,              KP_7,                Greek_PSI,         NoSymbol       ] };
     key <AD08> { [ i,             I,                   greater,           Greek_iota,             KP_8,              KP_8,                Greek_GAMMA,       NoSymbol       ] };
     key <AD09> { [ o,             O,                   equal,             Greek_omikron,          KP_9,              KP_9,                Greek_PHI,         NoSymbol       ] };
-    key <AD10> { [ p,             P,                   ampersand,         Greek_pi,               KP_Add,            KP_Add,              U211A,             NoSymbol       ] };
+    key <AD10> { [ p,             P,                   ampersand,         Greek_pi,               odiaeresis,        odiaeresis,              U211A,             NoSymbol       ] };
     key <AD11> { [ bracketleft,   bracerleft,          U017F,             noSymbol,               U2212,             NoSymbol,            jot,               NoSymbol       ] };
     key <AD12> { [ bracketright,  bracerright,         dead_stroke,       dead_psili,             dead_doubleacute,  NoSymbol,            dead_breve,        NoSymbol       ] };
 
     // Middle row
     // ------------------------------------------------------------
     key <AC01> { [ a,             A,                   backslash,         Greek_alpha,            Home,              Home,                includedin,        NoSymbol       ] };
-    key <AC02> { [ s,             S,                   slash,             Greek_sigma,            Left,              Left,                integral,          NoSymbol       ] };
+    key <AC02> { [ s,             S,                   slash,             Greek_sigma,            ssharp,            Left,                integral,          NoSymbol       ] };
     key <AC03> { [ d,             D,                   braceleft,         Greek_delta,            Down,              Down,                U2200,             NoSymbol       ] };
     key <AC04> { [ f,             F,                   braceright,        Greek_phi,              Right,             Right,               U2203,             NoSymbol       ] };
     key <AC05> { [ g,             G,                   asterisk,          Greek_gamma,            End,               End,                 elementof,         NoSymbol       ] };

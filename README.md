@@ -8,6 +8,12 @@ Extension of the US keyboard layout with some extra layers, like neo. The idea i
 - \#
 are way more accessable. Keys like ä,ö,ü,ß can be achieved with layer 4 (originally navigation, but same as us intl)
 
+## Roadmap
+
+- Fix Navigation Layer/Umlaute
+	- Understand pseudo layer
+- 
+
 ## Location
 
 /usr/share/X11/xkb/symbols
@@ -39,11 +45,11 @@ https://cedaei.com/posts/vim-like-layer-for-xorg-wayland/
 - [ ] forward, backward
 - [ ] Map left/right click on keyboard, sure?
 
-### Level 3 %<CAPS%>
+### Level 3 \<CAP\>
 
 Simplifies navigation. The assignment has been kept very much to the familiar configuration of vim, so that little new learning is required and you do not necessarily have to rely on an editor.
 
-### Level 4 %<lsgt%>
+### Level 4 \<lsgt\>
 
 Simplifies access to important keys for programming. Here are the brackets at the central positions. This layout is very much oriented towards hipster layouts like Neo.
 
