@@ -1,53 +1,17 @@
-// Keyboard layouts for Germany.
+// UP! Keyboard Layout
+// To improve the efficiency of the Unix-Pool Staff!
+//██╗   ██╗██████╗ ██╗   ██╗      █████╗ ██╗   ██╗ ██████╗ ██╗   ██╗████████╗
+//██║   ██║██╔══██╗██║   ██║     ██╔══██╗╚██╗ ██╔╝██╔═══██╗██║   ██║╚══██╔══╝
+//██║   ██║██████╔╝██║   ██║     ███████║ ╚████╔╝ ██║   ██║██║   ██║   ██║   
+//██║   ██║██╔═══╝ ╚═╝   ██║     ██╔══██║  ╚██╔╝  ██║   ██║██║   ██║   ██║   
+//╚██████╔╝██║     ██╗   ███████╗██║  ██║   ██║   ╚██████╔╝╚██████╔╝   ██║   
+// ╚═════╝ ╚═╝     ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   
 
 default
-xkb_symbols "basic" {
-
-    include "latin(type4)"
-
-    name[Group1]="German";
-
-    key <TLDE>	{[dead_circumflex, degree,            U2032,          U2033 ]}; // ′ ″
-    key <AE02>	{[          2,   quotedbl,      twosuperior,      oneeighth ]};
-    key <AE03>	{[          3,    section,    threesuperior,       sterling ]};
-    key <AE04>	{[          4,     dollar,       onequarter,       currency ]};
-    key <AE11>	{[     ssharp,   question,        backslash,   questiondown,    U1E9E ], type[group1]="FOUR_LEVEL_PLUS_LOCK" };
-    key <AE12>	{[ dead_acute, dead_grave,     dead_cedilla,    dead_ogonek ]};
-
-    key <AD03>	{[          e,          E,         EuroSign,       EuroSign ]};
-    key <AD06>	{[          z,          Z,        leftarrow,            yen ]};
-    key <AD11>	{[ udiaeresis, Udiaeresis,   dead_diaeresis, dead_abovering ]};
-    key <AD12>	{[       plus,   asterisk,       asciitilde,         macron ]};
-
-    key <AC02>	{[          s,          S,            U017F,          U1E9E ]}; // ſ ẞ
-    key <AC07>	{[          j,          J,    dead_belowdot,  dead_abovedot ]};
-    key <AC10>	{[ odiaeresis, Odiaeresis, dead_doubleacute,  dead_belowdot ]};
-    key <AC11>	{[ adiaeresis, Adiaeresis,  dead_circumflex,     dead_caron ]};
-    key <BKSL>	{[ numbersign, apostrophe, rightsinglequotemark, dead_breve ]};
-
-    key <LSGT>	{[      less,     greater,            bar, dead_belowmacron ]};
-    key <AB01>	{[          y,          Y,   guillemotright,          U203A ]}; // » ›
-    key <AB02>	{[          x,          X,    guillemotleft,          U2039 ]}; // « ‹
-    key <AB08>	{[      comma,  semicolon,   periodcentered,       multiply ]};
-    key <AB09>	{[     period,      colon,            U2026,       division ]}; // … ÷
-    key <AB10>	{[      minus, underscore,           endash,         emdash ]};
-
-    include "kpdl(comma)"
-
-    include "level3(ralt_switch)"
-};
-
-// German Neo-Layout Version 2
-// adopted 2004 by Hanno Behrens <Hanno.Behrens@gmx.de>
-// inspired by Dvorak/de-ergo  http://www.goebel-consult.de/de-ergo/
+// German UP!-Layout Version 0.3
+// inspired by neo (symbolic layers) https://www.neo-layout.org
 //
-// Authors:    Stephan Hilb <stephan at ehilb dot de>
-//             <lucky at zankt dot net>
-//             Benjamin Kellermann <Benjamin dot Kellermann at gmx dot Germany>
-//             Erik Streb <mail at erikstreb dot de>
-//             and many other contributors
-//
-// https://www.neo-layout.org
+// Author: Maximilian W. Gotthardt <mwgotthardt@gmail.com>
 
 partial alphanumeric_keys modifier_keys keypad_keys
 xkb_symbols "up_base" {
@@ -56,18 +20,17 @@ xkb_symbols "up_base" {
     // --------------------------------------------------------------
     // Ebene 1: normal
     // Ebene 2: Shift
-    // Ebene 3: Caps or Bksl ("Mod three")
+    // Ebene 3: Caps ("Mod three")
     // Ebene 4: Lsgt or RAlt ("Mod four")  (for selecting, use also Shift)
     // Ebene 5: Shift + Caps/Bksl
     // Ebene 6: Caps/Bksl + Lsgt/RAlt
     // Locking uppercase: left Shift + right Shift
     // Locking Ebene 4: Shift + Caps + Tab, or Lsgt + RAlt
 
-
     // Captions for the large table below
     // --------------------------------------------------------------
     // Xorg:       Level1                   Level2                   Level3                   Level4                   Level5                   Level6                   Level7                   Level8
-    // Neo:        Ebene1                   Ebene2                   Ebene3                   Ebene5                   Ebene4                   Pseudo-Ebene             Ebene6
+    // UP!:        Ebene1                   Ebene2                   Ebene3                   Ebene5                   Ebene4                   Pseudo-Ebene             Ebene6
     // Access key: none                     Shift                    Caps/Bksl                Shift + Caps/Bksl        Lsgt/RAlt                Shift + Lsgt/RAlt        Caps/Bksl + Lsgt/RAlt
 
 
