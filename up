@@ -8,7 +8,7 @@ xkb_symbols "basic" {
     name[Group1]="German";
 
     key <TLDE>	{[dead_circumflex, degree,            U2032,          U2033 ]}; // ′ ″
-    key <AE02>	{[          3,   quotedbl,      twosuperior,      oneeighth ]};
+    key <AE02>	{[          2,   quotedbl,      twosuperior,      oneeighth ]};
     key <AE03>	{[          3,    section,    threesuperior,       sterling ]};
     key <AE04>	{[          4,     dollar,       onequarter,       currency ]};
     key <AE11>	{[     ssharp,   question,        backslash,   questiondown,    U1E9E ], type[group1]="FOUR_LEVEL_PLUS_LOCK" };
@@ -206,59 +206,6 @@ xkb_symbols "neo" {
     include "level5(ralt_switch_lock)"
 };
 
-// Copied from macintosh_vndr/de
-// olh@suse.de   very close to MacOS map
-
-partial alphanumeric_keys
-xkb_symbols "mac" {
-
-    include "de"
-    name[Group1]= "German (Macintosh)";
-
-    key <AE01>	{ [         1,     exclam,   exclamdown,           at ]	};
-    key <AE05>	{ [         5,    percent,  bracketleft       ]	};
-    key <AE06>	{ [         6,  ampersand, bracketright       ]	};
-    key <AE07>	{ [         7,      slash,          bar,    backslash ]	};
-    key <AE08>	{ [         8,  parenleft,    braceleft,   asciitilde ]	};
-    key <AE09>	{ [         9, parenright,   braceright       ]	};
-    key <AD01>	{ [         q,          Q, guillemotleft, guillemotright ]	};
-    key <AD04>	{ [         r,          R,   registered       ]	};
-    key <AD07>	{ [         u,          U,    diaeresis,       Aacute ]	};
-    key <AD08>	{ [         i,          I,        slash,  Ucircumflex ]	};
-    key <AD11>	{ [ udiaeresis, Udiaeresis, periodcentered,    degree ]	};
-    key <AD12>	{ [      plus,   asterisk,   asciitilde       ]	};
-    key <AC01>	{ [         a,          A,        aring,        Aring ]	};
-    key <AC05>	{ [         g,          G,    copyright       ]	};
-    key <AC06>	{ [         h,          H,  ordfeminine       ]	};
-    key <AC09>	{ [         l,          L,           at       ]	};
-    key <AC10>	{ [ odiaeresis, Odiaeresis,  dead_acute       ]	};
-    key <AB06>	{ [         n,          N,   asciitilde       ]	};
-};
-
-partial alphanumeric_keys
-xkb_symbols "us" {
-    include "us"
-
-    name[Group1]="German (US)";
-
-    key <AE03> { [           3, numbersign,    section,     degree ] };
-    key <AE11> { [       minus, underscore,     ssharp,      U1E9E ] };
-
-    key <AD03> { [           e,          E,   EuroSign,       cent ] };
-    key <AD07> { [           u,          U, udiaeresis, Udiaeresis ] };
-    key <AD09> { [           o,          O, odiaeresis, Odiaeresis ] };
-    key <AD11> { [ bracketleft,  braceleft, udiaeresis, Udiaeresis ] };
-
-    key <AC01> { [           a,          A, adiaeresis, Adiaeresis ] };
-    key <AC02> { [           s,          S,     ssharp,      U1E9E ] };
-    key <AC10> { [   semicolon,      colon, odiaeresis, Odiaeresis ] };
-    key <AC11> { [  apostrophe,   quotedbl, adiaeresis, Adiaeresis ] };
-
-    key <AB03> { [           c,          C,  Multi_key,  Multi_key ] };
-    key <AB07> { [           m,          M, dead_greek,       Menu ] };
-
-    include "level3(ralt_switch)"
-};
 
 partial alphanumeric_keys modifier_keys keypad_keys
 xkb_symbols "bone" {
@@ -374,12 +321,4 @@ xkb_symbols "neo_qwerty" {
     include "level3(bksl_switch)"
     include "level5(lsgt_switch_lock)"
     include "level5(ralt_switch_lock)"
-};
-
-partial alphanumeric_keys
-xkb_symbols "lld" {
-    include "de(basic)"
-    name[Group1] = "German (Ladin)";
-
-    key <AD10> { [ p, P, ediaeresis, Ediaeresis ] };
 };
