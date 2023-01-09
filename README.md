@@ -1,4 +1,3 @@
-
 # UP - Keyboardlayout
 
 Extension of the US keyboard layout with some extra layers, like neo. The idea is, that you have the benefits of the layer system from neo without learning a new mapping. But better then de neo qwerty, because the important keys like:
@@ -8,6 +7,10 @@ Extension of the US keyboard layout with some extra layers, like neo. The idea i
 - ''
 - \#
 are way more accessable. Keys like ä,ö,ü,ß can be achieved with layer 4 (originally navigation, but same as us intl)
+
+## Location
+
+/usr/share/X11/xkb/symbols
 
 ## Name
 
