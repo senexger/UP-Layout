@@ -1,5 +1,6 @@
 // UP! Keyboard Layout
 // To improve the efficiency of the Unix-Pool Staff!
+
 //██╗   ██╗██████╗ ██╗   ██╗      █████╗ ██╗   ██╗ ██████╗ ██╗   ██╗████████╗
 //██║   ██║██╔══██╗██║   ██║     ██╔══██╗╚██╗ ██╔╝██╔═══██╗██║   ██║╚══██╔══╝
 //██║   ██║██████╔╝██║   ██║     ███████║ ╚████╔╝ ██║   ██║██║   ██║   ██║   
@@ -8,7 +9,7 @@
 // ╚═════╝ ╚═╝     ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   
 
 default
-// German UP!-Layout Version 0.3
+// German UP!-Layout Version 0.7
 // inspired by neo (symbolic layers) https://www.neo-layout.org
 //
 // Author: Maximilian W. Gotthardt <mwgotthardt@gmail.com>
@@ -131,12 +132,6 @@ xkb_symbols "up_base" {
     // Bottommost row
     key  <KP0> { [ KP_0,          U2423,               percent,           U2030,                  KP_Insert,         KP_Insert,           U25A1,             NoSymbol       ] };
     key <KPDL> { [ KP_Separator,  period,              comma,             minutes,                KP_Delete,         KP_Delete,           seconds,           NoSymbol       ] };
-};
-
-partial alphanumeric_keys modifier_keys keypad_keys
-xkb_symbols "neo" {
-
-    include "up(up_base)"
 
     name[Group1]= "German (UP!)";
 
@@ -144,7 +139,20 @@ xkb_symbols "neo" {
     include "level3(caps_switch)"
     include "level5(lsgt_switch_lock)"
     include "level5(ralt_switch_lock)"
-
-    // TODO: bksl key is needed for ']'
-    //include "level3(bksl_switch)"     
 };
+
+// partial alphanumeric_keys modifier_keys keypad_keys
+// xkb_symbols "up" {
+// 
+//     include "up(up_base)"
+// 
+//     name[Group1]= "German (UP!)";
+// 
+//     include "shift(both_capslock)"
+//     include "level3(caps_switch)"
+//     include "level5(lsgt_switch_lock)"
+//     include "level5(ralt_switch_lock)"
+// 
+//     // TODO: bksl key is needed for ']'
+//     //include "level3(bksl_switch)"     
+// };
