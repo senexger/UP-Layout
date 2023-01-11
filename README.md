@@ -10,9 +10,9 @@ are way more accessable. Keys like ä,ö,ü,ß can be achieved with layer 4 (ori
 
 ## Roadmap
 
-- Fix Navigation Layer/Umlaute
+- Fix Navigation Layer
 	- Understand pseudo layer
-- 
+- Fix Numpad integration - Useful? Also in Unixpool?
 
 ## Location
 
