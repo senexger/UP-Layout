@@ -91,7 +91,7 @@ xkb_symbols "up_base" {
 
     // Bottom row
     // ------------------------------------------------------------
-    key <AB01> { [ z,             Z,                   numbersign,        Greek_Zeta,             Escape,            Escape,              union,             NoSymbol       ] };
+    key <AB01> { [ z,             Z,                   numbersign,        Greek_zeta,             Escape,            Escape,              union,             NoSymbol       ] };
     key <AB02> { [ x,             X,                   dollar,            Greek_xi,               Tab,               Tab,                 intersection,      NoSymbol       ] };
     key <AB03> { [ c,             C,                   bar,               Greek_chi,              Insert,            Insert,              U2135,             NoSymbol       ] };
     key <AB04> { [ v,             V,                   asciitilde,        noSymbol,               Return,            Return,              Greek_PI,          NoSymbol       ] };
