@@ -61,16 +61,16 @@ xkb_symbols "up_base" {
 
     // Top row
     // ------------------------------------------------------------
-    key <AD01> { [ q,             Q,                   ellipsis,          NoSymbol,               adiaeresis,        adiaeresis,               Greek_XI,          NoSymbol       ] };
-    key <AD02> { [ w,             W,                   underscore,        Greek_finalsmallsigma,  BackSpace,         BackSpace,           radical,           NoSymbol       ] };
+    key <AD01> { [ q,             Q,                   ellipsis,          Greek_OMEGA,            adiaeresis,        Adiaeresis,          Greek_XI,          NoSymbol       ] };
+    key <AD02> { [ w,             W,                   underscore,        Greek_omega,            BackSpace,         BackSpace,           Greek_OMEGA,       NoSymbol       ] };
     key <AD03> { [ e,             E,                   bracketleft,       Greek_epsilon,          Up,                Up,                  Greek_LAMBDA,      NoSymbol       ] };
     key <AD04> { [ r,             R,                   bracketright,      Greek_rho,              Delete,            Delete,              U2102,             NoSymbol       ] };
-    key <AD05> { [ t,             T,                   asciicircum,       Greek_tau,              Next,              Next,                Greek_OMEGA,       NoSymbol       ] };
-    key <AD06> { [ y,             Y,                   exclam,            Greek_theta,            udiaeresis,        udiaeresis,          multiply,          NoSymbol       ] };
+    key <AD05> { [ t,             T,                   asciicircum,       Greek_tau,              Next,              Next,                noSymbol,          NoSymbol       ] };
+    key <AD06> { [ y,             Y,                   exclam,            Greek_theta,            udiaeresis,        Udiaeresis,          multiply,          NoSymbol       ] };
     key <AD07> { [ u,             U,                   less,              Greek_upsilon,          KP_7,              KP_7,                Greek_PSI,         NoSymbol       ] };
     key <AD08> { [ i,             I,                   greater,           Greek_iota,             KP_8,              KP_8,                Greek_GAMMA,       NoSymbol       ] };
-    key <AD09> { [ o,             O,                   equal,             Greek_omikron,          kP_9,              KP_9,                Greek_PHI,         NoSymbol       ] };
-    key <AD10> { [ p,             P,                   ampersand,         Greek_pi,               odiaeresis,        odiaeresis,          U211A,             NoSymbol       ] };
+    key <AD09> { [ o,             O,                   equal,             Greek_omicron,          kP_9,              KP_9,                Greek_PHI,         NoSymbol       ] };
+    key <AD10> { [ p,             P,                   ampersand,         Greek_pi,               odiaeresis,        Odiaeresis,          U211A,             NoSymbol       ] };
     key <AD11> { [ bracketleft,   bracerleft,          U017F,             noSymbol,               U2212,             NoSymbol,            jot,               NoSymbol       ] };
     key <AD12> { [ bracketright,  bracerright,         dead_stroke,       dead_psili,             dead_doubleacute,  NoSymbol,            dead_breve,        NoSymbol       ] };
 
