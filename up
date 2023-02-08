@@ -98,8 +98,8 @@ xkb_symbols "up_base" {
     key <AB05> { [ b,             B,                   grave,             Greek_beta,             Undo,              Redo,                U2124,             NoSymbol       ] };
     key <AB06> { [ n,             N,                   plus,              Greek_nu,               colon,             NoSymbol,            U21D0,             NoSymbol       ] };
     key <AB07> { [ m,             M,                   percent,           Greek_mu,               KP_1,              KP_1,                ifonlyif,          NoSymbol       ] };
-    key <AB08> { [ comma,         endash,              quotedbl,          U03F1,                  KP_2,              KP_2,                U21D2,             NoSymbol       ] };
-    key <AB09> { [ period,        enfilledcircbullet,  apostrophe,        U03D1,                  KP_3,              KP_3,                U21A6,             NoSymbol       ] };
+    key <AB08> { [ comma,         less,                quotedbl,          U03F1,                  KP_2,              KP_2,                U21D2,             NoSymbol       ] };
+    key <AB09> { [ period,        greater,             apostrophe,        U03D1,                  KP_3,              KP_3,                U21A6,             NoSymbol       ] };
     key <AB10> { [ slash,         question,            semicolon,         NoSymbol,               semicolon,         NoSymbol,            Greek_THETA,       NoSymbol       ] };
 
     // Space key
